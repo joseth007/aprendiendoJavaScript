@@ -67,3 +67,18 @@ console.log(typeof miIndefinido); // "undefined"
 
 //typeof -> Devuelve el tipo de dato de una variable
 console.log(typeof miEntero); // "string" porque fue modificado cuando se le asignó un string  ver linea 25
+
+
+// CONSTANTES
+const MI_CONSTANTE = 3.1416; // Convención de usar mayúsculas para constantes
+console.log(MI_CONSTANTE); // Imprime el valor de la constante
+
+MI_CONSTANTE = 20; // Esto causará un error porque no se puede reasignar una constante
+console.log(MI_CONSTANTE); // TypeError: Assignment to constant variable
+
+console.log(Math.PI); // Imprime el valor de PI de la biblioteca Math, que es una constante en JavaScript
+
+// Constante de segundos x minuto
+const SEGUNDOS_POR_MINUTO = 60;
+console.log(SEGUNDOS_POR_MINUTO); // Imprime 60
+console.log(segundos_por_minuto); // ReferenceError: segundos_por_minuto is not defined, porque las constantes son sensibles a mayúsculas y minúsculas
