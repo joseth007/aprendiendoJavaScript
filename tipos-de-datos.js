@@ -34,6 +34,7 @@ console.log(miFlotante); // Ejemplo de número flotante
 
 let miCadena = "Hola, Mundo!";
 console.log(miCadena); // Uso de comillas dobles
+console.log(typeof miCadena); // "string" porque es una cadena de texto
 
 miCadena = 'Hola de nuevo!';
 console.log(miCadena); // Uso de comillas simples   
@@ -51,16 +52,20 @@ console.log(miBooleano); // Valor booleano verdadero
 
 miBooleano = false;
 console.log(miBooleano); // Valor booleano falso
+console.log(typeof miBooleano); // "boolean" porque es un valor lógico
 
 // Null -> Representa la ausencia de valor, Ausencia de la referencia de un objeto Ej. null
 
 let miNulo = null;
 console.log(miNulo); // Valor nulo
+console.log(typeof miNulo); // "object" (esto es un comportamiento histórico de JavaScript)
+
 
 // Undefined -> Representa una variable que ha sido declarada pero no inicializada Ej. undefined
 
 let miIndefinido = undefined;
 console.log(miIndefinido); // Valor indefinido
+console.log(typeof miIndefinido); // "undefined"
 
 //typeof -> Devuelve el tipo de dato de una variable
 console.log(typeof miEntero); // "string" porque fue modificado cuando se le asignó un string  ver linea 25
