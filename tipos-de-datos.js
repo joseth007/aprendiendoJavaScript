@@ -26,9 +26,7 @@ console.log(typeof miEntero); // "number" porque es un número entero
 
 let miFlotante  = 7.9;
 console.log(miFlotante); // Ejemplo de número flotante
-
-
-
+console.log(typeof miFlotante); // "number" porque es un número flotante
 
 // String -> Almacena cadenas de texto Ej. "Hola", 'Mundo', `Texto con backticks`, etc
 
